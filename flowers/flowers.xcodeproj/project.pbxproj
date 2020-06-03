@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049BDB55243B6CA000B41FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB53243B6CA000B41FBF /* Main.storyboard */; };
+		049BDB57243B6CA100B41FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB56243B6CA100B41FBF /* Assets.xcassets */; };
+		049BDB5A243B6CA100B41FBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB58243B6CA100B41FBF /* LaunchScreen.storyboard */; };
+		049BDB5D243B6CA100B41FBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049BDB5C243B6CA100B41FBF /* main.m */; };
+		049BDB69243B6CB500B41FBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049BDB65243B6CB500B41FBF /* AppDelegate.m */; };
+		049BDB6A243B6CB500B41FBF /* CFFlowersCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049BDB66243B6CB500B41FBF /* CFFlowersCell.m */; };
+		049BDB6B243B6CB500B41FBF /* CFFlowersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 049BDB68243B6CB500B41FBF /* CFFlowersVC.m */; };
+		049BDB73243B6CEE00B41FBF /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049BDB72243B6CEE00B41FBF /* Messages.framework */; };
+		049BDB7A243B6CEF00B41FBF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB78243B6CEF00B41FBF /* MainInterface.storyboard */; };
+		049BDB7C243B6CEF00B41FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB7B243B6CEF00B41FBF /* Assets.xcassets */; };
+		049BDB80243B6CEF00B41FBF /* Cactus And Flowers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 049BDB70243B6CEE00B41FBF /* Cactus And Flowers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		049BDB87243B6CFB00B41FBF /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049BDB85243B6CFB00B41FBF /* MessagesViewController.m */; };
+		049BDB98243B6D0100B41FBF /* cactus_and_flowers_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB89243B6D0100B41FBF /* cactus_and_flowers_3@2x.png */; };
+		049BDB99243B6D0100B41FBF /* cactus_and_flowers_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB89243B6D0100B41FBF /* cactus_and_flowers_3@2x.png */; };
+		049BDB9A243B6D0100B41FBF /* cactus_and_flowers_13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8A243B6D0100B41FBF /* cactus_and_flowers_13@2x.png */; };
+		049BDB9B243B6D0100B41FBF /* cactus_and_flowers_13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8A243B6D0100B41FBF /* cactus_and_flowers_13@2x.png */; };
+		049BDB9C243B6D0100B41FBF /* cactus_and_flowers_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8B243B6D0100B41FBF /* cactus_and_flowers_1@2x.png */; };
+		049BDB9D243B6D0100B41FBF /* cactus_and_flowers_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8B243B6D0100B41FBF /* cactus_and_flowers_1@2x.png */; };
+		049BDB9E243B6D0100B41FBF /* cactus_and_flowers_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8C243B6D0100B41FBF /* cactus_and_flowers_11@2x.png */; };
+		049BDB9F243B6D0100B41FBF /* cactus_and_flowers_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8C243B6D0100B41FBF /* cactus_and_flowers_11@2x.png */; };
+		049BDBA0243B6D0100B41FBF /* cactus_and_flowers_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8D243B6D0100B41FBF /* cactus_and_flowers_5@2x.png */; };
+		049BDBA1243B6D0100B41FBF /* cactus_and_flowers_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8D243B6D0100B41FBF /* cactus_and_flowers_5@2x.png */; };
+		049BDBA2243B6D0100B41FBF /* cactus_and_flowers_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8E243B6D0100B41FBF /* cactus_and_flowers_9@2x.png */; };
+		049BDBA3243B6D0100B41FBF /* cactus_and_flowers_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8E243B6D0100B41FBF /* cactus_and_flowers_9@2x.png */; };
+		049BDBA4243B6D0100B41FBF /* cactus_and_flowers_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8F243B6D0100B41FBF /* cactus_and_flowers_7@2x.png */; };
+		049BDBA5243B6D0100B41FBF /* cactus_and_flowers_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB8F243B6D0100B41FBF /* cactus_and_flowers_7@2x.png */; };
+		049BDBA6243B6D0100B41FBF /* cactus_and_flowers_12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB90243B6D0100B41FBF /* cactus_and_flowers_12@2x.png */; };
+		049BDBA7243B6D0100B41FBF /* cactus_and_flowers_12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB90243B6D0100B41FBF /* cactus_and_flowers_12@2x.png */; };
+		049BDBA8243B6D0100B41FBF /* cactus_and_flowers_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB91243B6D0100B41FBF /* cactus_and_flowers_2@2x.png */; };
+		049BDBA9243B6D0100B41FBF /* cactus_and_flowers_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB91243B6D0100B41FBF /* cactus_and_flowers_2@2x.png */; };
+		049BDBAA243B6D0100B41FBF /* cactus_and_flowers_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB92243B6D0100B41FBF /* cactus_and_flowers_10@2x.png */; };
+		049BDBAB243B6D0100B41FBF /* cactus_and_flowers_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB92243B6D0100B41FBF /* cactus_and_flowers_10@2x.png */; };
+		049BDBAC243B6D0100B41FBF /* cactus_and_flowers_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB93243B6D0100B41FBF /* cactus_and_flowers_0@2x.png */; };
+		049BDBAD243B6D0100B41FBF /* cactus_and_flowers_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB93243B6D0100B41FBF /* cactus_and_flowers_0@2x.png */; };
+		049BDBAE243B6D0100B41FBF /* cactus_and_flowers_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB94243B6D0100B41FBF /* cactus_and_flowers_4@2x.png */; };
+		049BDBAF243B6D0100B41FBF /* cactus_and_flowers_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB94243B6D0100B41FBF /* cactus_and_flowers_4@2x.png */; };
+		049BDBB0243B6D0100B41FBF /* cactus_and_flowers_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB95243B6D0100B41FBF /* cactus_and_flowers_8@2x.png */; };
+		049BDBB1243B6D0100B41FBF /* cactus_and_flowers_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB95243B6D0100B41FBF /* cactus_and_flowers_8@2x.png */; };
+		049BDBB2243B6D0100B41FBF /* cactus_and_flowers_14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB96243B6D0100B41FBF /* cactus_and_flowers_14@2x.png */; };
+		049BDBB3243B6D0100B41FBF /* cactus_and_flowers_14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB96243B6D0100B41FBF /* cactus_and_flowers_14@2x.png */; };
+		049BDBB4243B6D0100B41FBF /* cactus_and_flowers_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB97243B6D0100B41FBF /* cactus_and_flowers_6@2x.png */; };
+		049BDBB5243B6D0100B41FBF /* cactus_and_flowers_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049BDB97243B6D0100B41FBF /* cactus_and_flowers_6@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049BDB7E243B6CEF00B41FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049BDB3F243B6CA000B41FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049BDB6F243B6CEE00B41FBF;
+			remoteInfo = s;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		049BDB84243B6CEF00B41FBF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				049BDB80243B6CEF00B41FBF /* Cactus And Flowers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		049BDB47243B6CA000B41FBF /* Cactus And Flowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cactus And Flowers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		049BDB54243B6CA000B41FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049BDB56243B6CA100B41FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049BDB59243B6CA100B41FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049BDB5B243B6CA100B41FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049BDB5C243B6CA100B41FBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049BDB63243B6CB500B41FBF /* CFFlowersCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFlowersCell.h; sourceTree = "<group>"; };
+		049BDB64243B6CB500B41FBF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		049BDB65243B6CB500B41FBF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		049BDB66243B6CB500B41FBF /* CFFlowersCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFlowersCell.m; sourceTree = "<group>"; };
+		049BDB67243B6CB500B41FBF /* CFFlowersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFlowersVC.h; sourceTree = "<group>"; };
+		049BDB68243B6CB500B41FBF /* CFFlowersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFlowersVC.m; sourceTree = "<group>"; };
+		049BDB70243B6CEE00B41FBF /* Cactus And Flowers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cactus And Flowers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		049BDB72243B6CEE00B41FBF /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		049BDB79243B6CEF00B41FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		049BDB7B243B6CEF00B41FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049BDB7D243B6CEF00B41FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049BDB85243B6CFB00B41FBF /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		049BDB86243B6CFB00B41FBF /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		049BDB89243B6D0100B41FBF /* cactus_and_flowers_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_3@2x.png"; sourceTree = "<group>"; };
+		049BDB8A243B6D0100B41FBF /* cactus_and_flowers_13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_13@2x.png"; sourceTree = "<group>"; };
+		049BDB8B243B6D0100B41FBF /* cactus_and_flowers_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_1@2x.png"; sourceTree = "<group>"; };
+		049BDB8C243B6D0100B41FBF /* cactus_and_flowers_11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_11@2x.png"; sourceTree = "<group>"; };
+		049BDB8D243B6D0100B41FBF /* cactus_and_flowers_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_5@2x.png"; sourceTree = "<group>"; };
+		049BDB8E243B6D0100B41FBF /* cactus_and_flowers_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_9@2x.png"; sourceTree = "<group>"; };
+		049BDB8F243B6D0100B41FBF /* cactus_and_flowers_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_7@2x.png"; sourceTree = "<group>"; };
+		049BDB90243B6D0100B41FBF /* cactus_and_flowers_12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_12@2x.png"; sourceTree = "<group>"; };
+		049BDB91243B6D0100B41FBF /* cactus_and_flowers_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_2@2x.png"; sourceTree = "<group>"; };
+		049BDB92243B6D0100B41FBF /* cactus_and_flowers_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_10@2x.png"; sourceTree = "<group>"; };
+		049BDB93243B6D0100B41FBF /* cactus_and_flowers_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_0@2x.png"; sourceTree = "<group>"; };
+		049BDB94243B6D0100B41FBF /* cactus_and_flowers_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_4@2x.png"; sourceTree = "<group>"; };
+		049BDB95243B6D0100B41FBF /* cactus_and_flowers_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_8@2x.png"; sourceTree = "<group>"; };
+		049BDB96243B6D0100B41FBF /* cactus_and_flowers_14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_14@2x.png"; sourceTree = "<group>"; };
+		049BDB97243B6D0100B41FBF /* cactus_and_flowers_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cactus_and_flowers_6@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049BDB44243B6CA000B41FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BDB6D243B6CEE00B41FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BDB73243B6CEE00B41FBF /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049BDB3E243B6CA000B41FBF = {
+			isa = PBXGroup;
+			children = (
+				049BDB49243B6CA000B41FBF /* flowers */,
+				049BDB74243B6CEF00B41FBF /* s */,
+				049BDB71243B6CEE00B41FBF /* Frameworks */,
+				049BDB48243B6CA000B41FBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049BDB48243B6CA000B41FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049BDB47243B6CA000B41FBF /* Cactus And Flowers.app */,
+				049BDB70243B6CEE00B41FBF /* Cactus And Flowers.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049BDB49243B6CA000B41FBF /* flowers */ = {
+			isa = PBXGroup;
+			children = (
+				049BDB64243B6CB500B41FBF /* AppDelegate.h */,
+				049BDB65243B6CB500B41FBF /* AppDelegate.m */,
+				049BDB63243B6CB500B41FBF /* CFFlowersCell.h */,
+				049BDB66243B6CB500B41FBF /* CFFlowersCell.m */,
+				049BDB67243B6CB500B41FBF /* CFFlowersVC.h */,
+				049BDB68243B6CB500B41FBF /* CFFlowersVC.m */,
+				049BDB53243B6CA000B41FBF /* Main.storyboard */,
+				049BDB56243B6CA100B41FBF /* Assets.xcassets */,
+				049BDB58243B6CA100B41FBF /* LaunchScreen.storyboard */,
+				049BDB5B243B6CA100B41FBF /* Info.plist */,
+				049BDB5C243B6CA100B41FBF /* main.m */,
+			);
+			path = flowers;
+			sourceTree = "<group>";
+		};
+		049BDB71243B6CEE00B41FBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				049BDB72243B6CEE00B41FBF /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		049BDB74243B6CEF00B41FBF /* s */ = {
+			isa = PBXGroup;
+			children = (
+				049BDB88243B6D0100B41FBF /* cactus_and_flowers_imgs */,
+				049BDB86243B6CFB00B41FBF /* MessagesViewController.h */,
+				049BDB85243B6CFB00B41FBF /* MessagesViewController.m */,
+				049BDB78243B6CEF00B41FBF /* MainInterface.storyboard */,
+				049BDB7B243B6CEF00B41FBF /* Assets.xcassets */,
+				049BDB7D243B6CEF00B41FBF /* Info.plist */,
+			);
+			path = s;
+			sourceTree = "<group>";
+		};
+		049BDB88243B6D0100B41FBF /* cactus_and_flowers_imgs */ = {
+			isa = PBXGroup;
+			children = (
+				049BDB89243B6D0100B41FBF /* cactus_and_flowers_3@2x.png */,
+				049BDB8A243B6D0100B41FBF /* cactus_and_flowers_13@2x.png */,
+				049BDB8B243B6D0100B41FBF /* cactus_and_flowers_1@2x.png */,
+				049BDB8C243B6D0100B41FBF /* cactus_and_flowers_11@2x.png */,
+				049BDB8D243B6D0100B41FBF /* cactus_and_flowers_5@2x.png */,
+				049BDB8E243B6D0100B41FBF /* cactus_and_flowers_9@2x.png */,
+				049BDB8F243B6D0100B41FBF /* cactus_and_flowers_7@2x.png */,
+				049BDB90243B6D0100B41FBF /* cactus_and_flowers_12@2x.png */,
+				049BDB91243B6D0100B41FBF /* cactus_and_flowers_2@2x.png */,
+				049BDB92243B6D0100B41FBF /* cactus_and_flowers_10@2x.png */,
+				049BDB93243B6D0100B41FBF /* cactus_and_flowers_0@2x.png */,
+				049BDB94243B6D0100B41FBF /* cactus_and_flowers_4@2x.png */,
+				049BDB95243B6D0100B41FBF /* cactus_and_flowers_8@2x.png */,
+				049BDB96243B6D0100B41FBF /* cactus_and_flowers_14@2x.png */,
+				049BDB97243B6D0100B41FBF /* cactus_and_flowers_6@2x.png */,
+			);
+			path = cactus_and_flowers_imgs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049BDB46243B6CA000B41FBF /* flowers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049BDB60243B6CA100B41FBF /* Build configuration list for PBXNativeTarget "flowers" */;
+			buildPhases = (
+				049BDB43243B6CA000B41FBF /* Sources */,
+				049BDB44243B6CA000B41FBF /* Frameworks */,
+				049BDB45243B6CA000B41FBF /* Resources */,
+				049BDB84243B6CEF00B41FBF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049BDB7F243B6CEF00B41FBF /* PBXTargetDependency */,
+			);
+			name = flowers;
+			productName = flowers;
+			productReference = 049BDB47243B6CA000B41FBF /* Cactus And Flowers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049BDB6F243B6CEE00B41FBF /* s */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049BDB81243B6CEF00B41FBF /* Build configuration list for PBXNativeTarget "s" */;
+			buildPhases = (
+				049BDB6C243B6CEE00B41FBF /* Sources */,
+				049BDB6D243B6CEE00B41FBF /* Frameworks */,
+				049BDB6E243B6CEE00B41FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = s;
+			productName = s;
+			productReference = 049BDB70243B6CEE00B41FBF /* Cactus And Flowers.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049BDB3F243B6CA000B41FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = CF;
+				TargetAttributes = {
+					049BDB46243B6CA000B41FBF = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					049BDB6F243B6CEE00B41FBF = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 049BDB42243B6CA000B41FBF /* Build configuration list for PBXProject "flowers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049BDB3E243B6CA000B41FBF;
+			productRefGroup = 049BDB48243B6CA000B41FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049BDB46243B6CA000B41FBF /* flowers */,
+				049BDB6F243B6CEE00B41FBF /* s */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049BDB45243B6CA000B41FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BDBAA243B6D0100B41FBF /* cactus_and_flowers_10@2x.png in Resources */,
+				049BDB98243B6D0100B41FBF /* cactus_and_flowers_3@2x.png in Resources */,
+				049BDB5A243B6CA100B41FBF /* LaunchScreen.storyboard in Resources */,
+				049BDBAC243B6D0100B41FBF /* cactus_and_flowers_0@2x.png in Resources */,
+				049BDBB2243B6D0100B41FBF /* cactus_and_flowers_14@2x.png in Resources */,
+				049BDBB4243B6D0100B41FBF /* cactus_and_flowers_6@2x.png in Resources */,
+				049BDBA4243B6D0100B41FBF /* cactus_and_flowers_7@2x.png in Resources */,
+				049BDBB0243B6D0100B41FBF /* cactus_and_flowers_8@2x.png in Resources */,
+				049BDBA0243B6D0100B41FBF /* cactus_and_flowers_5@2x.png in Resources */,
+				049BDBA6243B6D0100B41FBF /* cactus_and_flowers_12@2x.png in Resources */,
+				049BDB9C243B6D0100B41FBF /* cactus_and_flowers_1@2x.png in Resources */,
+				049BDBAE243B6D0100B41FBF /* cactus_and_flowers_4@2x.png in Resources */,
+				049BDB9A243B6D0100B41FBF /* cactus_and_flowers_13@2x.png in Resources */,
+				049BDBA2243B6D0100B41FBF /* cactus_and_flowers_9@2x.png in Resources */,
+				049BDB57243B6CA100B41FBF /* Assets.xcassets in Resources */,
+				049BDB55243B6CA000B41FBF /* Main.storyboard in Resources */,
+				049BDB9E243B6D0100B41FBF /* cactus_and_flowers_11@2x.png in Resources */,
+				049BDBA8243B6D0100B41FBF /* cactus_and_flowers_2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BDB6E243B6CEE00B41FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BDB7C243B6CEF00B41FBF /* Assets.xcassets in Resources */,
+				049BDBB5243B6D0100B41FBF /* cactus_and_flowers_6@2x.png in Resources */,
+				049BDBA7243B6D0100B41FBF /* cactus_and_flowers_12@2x.png in Resources */,
+				049BDB7A243B6CEF00B41FBF /* MainInterface.storyboard in Resources */,
+				049BDBB3243B6D0100B41FBF /* cactus_and_flowers_14@2x.png in Resources */,
+				049BDBAD243B6D0100B41FBF /* cactus_and_flowers_0@2x.png in Resources */,
+				049BDBA5243B6D0100B41FBF /* cactus_and_flowers_7@2x.png in Resources */,
+				049BDBB1243B6D0100B41FBF /* cactus_and_flowers_8@2x.png in Resources */,
+				049BDBAF243B6D0100B41FBF /* cactus_and_flowers_4@2x.png in Resources */,
+				049BDBA1243B6D0100B41FBF /* cactus_and_flowers_5@2x.png in Resources */,
+				049BDBA9243B6D0100B41FBF /* cactus_and_flowers_2@2x.png in Resources */,
+				049BDB9F243B6D0100B41FBF /* cactus_and_flowers_11@2x.png in Resources */,
+				049BDB9B243B6D0100B41FBF /* cactus_and_flowers_13@2x.png in Resources */,
+				049BDB99243B6D0100B41FBF /* cactus_and_flowers_3@2x.png in Resources */,
+				049BDBA3243B6D0100B41FBF /* cactus_and_flowers_9@2x.png in Resources */,
+				049BDB9D243B6D0100B41FBF /* cactus_and_flowers_1@2x.png in Resources */,
+				049BDBAB243B6D0100B41FBF /* cactus_and_flowers_10@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049BDB43243B6CA000B41FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BDB6B243B6CB500B41FBF /* CFFlowersVC.m in Sources */,
+				049BDB6A243B6CB500B41FBF /* CFFlowersCell.m in Sources */,
+				049BDB69243B6CB500B41FBF /* AppDelegate.m in Sources */,
+				049BDB5D243B6CA100B41FBF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BDB6C243B6CEE00B41FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BDB87243B6CFB00B41FBF /* MessagesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049BDB7F243B6CEF00B41FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049BDB6F243B6CEE00B41FBF /* s */;
+			targetProxy = 049BDB7E243B6CEF00B41FBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		049BDB53243B6CA000B41FBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049BDB54243B6CA000B41FBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049BDB58243B6CA100B41FBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049BDB59243B6CA100B41FBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		049BDB78243B6CEF00B41FBF /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049BDB79243B6CEF00B41FBF /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049BDB5E243B6CA100B41FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		049BDB5F243B6CA100B41FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049BDB61243B6CA100B41FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 997Z8AXCD6;
+				INFOPLIST_FILE = flowers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cactus.and.flowers;
+				PRODUCT_NAME = "Cactus And Flowers";
+				PROVISIONING_PROFILE_SPECIFIER = flow;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		049BDB62243B6CA100B41FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 997Z8AXCD6;
+				INFOPLIST_FILE = flowers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cactus.and.flowers;
+				PRODUCT_NAME = "Cactus And Flowers";
+				PROVISIONING_PROFILE_SPECIFIER = flow;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		049BDB82243B6CEF00B41FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 997Z8AXCD6;
+				INFOPLIST_FILE = s/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cactus.and.flowers.s;
+				PRODUCT_NAME = "Cactus And Flowers";
+				PROVISIONING_PROFILE_SPECIFIER = flows;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		049BDB83243B6CEF00B41FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 997Z8AXCD6;
+				INFOPLIST_FILE = s/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cactus.and.flowers.s;
+				PRODUCT_NAME = "Cactus And Flowers";
+				PROVISIONING_PROFILE_SPECIFIER = flows;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049BDB42243B6CA000B41FBF /* Build configuration list for PBXProject "flowers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BDB5E243B6CA100B41FBF /* Debug */,
+				049BDB5F243B6CA100B41FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049BDB60243B6CA100B41FBF /* Build configuration list for PBXNativeTarget "flowers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BDB61243B6CA100B41FBF /* Debug */,
+				049BDB62243B6CA100B41FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049BDB81243B6CEF00B41FBF /* Build configuration list for PBXNativeTarget "s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BDB82243B6CEF00B41FBF /* Debug */,
+				049BDB83243B6CEF00B41FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049BDB3F243B6CA000B41FBF /* Project object */;
+}
